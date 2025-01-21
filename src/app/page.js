@@ -87,6 +87,33 @@ export default function Home() {
       </header>
 
       <main>
+
+        <div className="container my-5" id="info-personal">
+          <h2 className="text-center mb-4">Información Personal</h2>
+          <div className="row">
+            <div className="col-md-6 mb-4">
+              <h5>Nombre</h5>
+              <p>Dorianys Aponte</p>
+            </div>
+            <div className="col-md-6 mb-4">
+              <h5>Edad</h5>
+              <p>32 años</p>
+            </div>
+            <div className="col-md-6 mb-4">
+              <h5>Teléfono</h5>
+              <p>+56 9 7814 8353</p>
+            </div>
+            <div className="col-md-6 mb-4">
+              <h5>Ubicación</h5>
+              <p>Santiago, Chile</p>
+            </div>
+            <div className="col-md-12">
+              <h5>Profesión</h5>
+              <p>Soy una desarrolladora apasionada por la tecnología y el desarrollo web, actualmente en formación a través de un bootcamp intensivo de desarrollo full stack. A lo largo de mi formación, he adquirido experiencia trabajando con tecnologías como HTML, CSS, JavaScript, React, Next.js y Node.js, y estoy comprometida en seguir aprendiendo y mejorando mis habilidades técnicas. Además, tengo experiencia en la creación de proyectos web y portafolios que demuestran mi capacidad para aplicar estos conocimientos en situaciones reales.</p>
+            </div>
+          </div>
+        </div>
+
         <div className="container my-5" id="habilidades">
           <h2 className="text-center">Habilidades</h2>
           <div className="row">

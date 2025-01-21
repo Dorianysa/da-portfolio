@@ -40,7 +40,7 @@ header p {
 }
 
 /* Estilo de secciones */
-#habilidades, #proyectos, #contacto {
+#info-personal, #habilidades, #proyectos, #contacto {
   background: rgba(255, 255, 255, 0.8); 
   padding: 30px;
   border-radius: 8px; /* Bordes redondeados */
