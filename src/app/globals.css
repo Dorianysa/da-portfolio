@@ -1,0 +1,176 @@
+
+
+header.bg-primary {
+  background-color: #ad4290 !important; /* Reemplaza con el color deseado */
+}
+
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo del header */
+header {
+  background-color: rgba(173, 66, 144, 0.8) !important; 
+  padding: 50px 0; 
+  text-align: center;
+}
+
+/* Estilo del h1 dentro del header */
+header h1 {
+  font-family: 'Lobster', cursive; 
+  font-size: 3rem; 
+  color: #fff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  margin-bottom: 10px;
+}
+
+/* Estilo del pÃ¡rrafo dentro del header */
+header p {
+  font-size: 1.25rem; 
+  color: #f8f9fa; 
+}
+.social-icons a {
+  color: #fff; /* Color de los Ã­conos */
+  transition: color 0.3s ease; 
+}
+
+.social-icons a:hover {
+  color: #ccc; /* Color al pasar el mouse por encima */
+}
+
+/* Estilo de secciones */
+#habilidades, #proyectos, #contacto {
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 30px;
+  border-radius: 8px; /* Bordes redondeados */
+  margin-top: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.progress {
+  height: 20px;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.bg-success {
+  background-color: #28a745;
+}
+
+.bg-info {
+  background-color: #17a2b8;
+}
+
+.bg-warning {
+  background-color: #ffc107;
+}
+
+.bg-primary {
+  background-color: #007bff;
+}
+
+/* Estilo de las tarjetas */
+.card {
+  border: none; 
+  border-radius: 8px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.1);
+}
+#intereses {
+  background-color: #f8f9fa; 
+  padding: 40px 20px; 
+  margin: 0 auto; 
+  border-radius: 10px; 
+}
+
+#intereses h2 {
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#intereses .icono-interes {
+  color: #cc72dc; 
+  transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+#intereses .icono-interes:hover {
+  transform: scale(1.2); /* Aumenta el tamaÃ±o del icono al pasar el mouse */
+  color: #d9534f; /* Cambia el color al pasar el mouse */
+}
+
+#intereses h5 {
+  font-size: 1.25rem;
+  margin-top: 15px;
+  color: #444;
+}
+
+#intereses p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+
+/* Estilo del formulario */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* BotÃ³n de envÃ­o del formulario */
+.btn-primary {
+  background-color: #ad4290; 
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #953d7d; 
+}
+
+/* Estilo del footer */
+footer {
+  background: rgba(0, 0, 0, 0.8); 
+  color: #fff; 
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); 
+}
